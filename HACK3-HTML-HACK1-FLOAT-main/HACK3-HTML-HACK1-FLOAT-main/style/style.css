@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+}
+nav {
+    height: 140px;
+    background-color: #93B5C9;
+}
+main {
+    height: 250px;
+    background-color: #AB2849;
+    margin-bottom: 20px;
+}
+
+div {
+    float: right;
+}
+
+section {
+    height: 150px;
+    width: 950px;
+    margin-bottom: 20px;
+    background-color: #AB2849;
+}
+
+footer{
+    height: 130px;
+    margin: 15px 15px 0 15px;
+    background-color: #AB2849;
+    clear: right;
+}

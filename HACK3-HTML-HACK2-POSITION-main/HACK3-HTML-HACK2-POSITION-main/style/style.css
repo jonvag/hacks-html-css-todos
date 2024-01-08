@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+}
+
+nav {
+    height: 150px;
+    background-color: #93B5C9;
+}
+
+main {
+    height: 280px;
+    background-color: #AB2849;
+}
+div {
+    position: relative;
+    height: 600px;
+}
+div > article {
+    position: absolute;
+}
+div > article:nth-child(2) { /* este es el espacio vacio que queda */
+    position: absolute;
+    margin-left: 930px;
+    height: 600px;
+}
+section {
+    height: 130px;
+    width: 920px;
+    background-color: #AB2849;
+    margin-top: 20px;
+}
+
+
+footer {
+    height: 120px;
+    margin: 20px 20px 10px 20px;
+    background-color: #AB2849;
+
+}

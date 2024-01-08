@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+}
+
+nav {
+    height: 150px;
+    background-color: #93B5C9;
+    
+}
+
+main {
+    height: 250px;
+    margin-bottom: 20px;
+    background-color: #AB2849;
+
+}
+
+div {
+    float: left;
+}
+
+section {
+    height: 140px;
+    background-color: #AB2849;
+    width: 925px;
+    margin-bottom: 20px;
+}
+
+footer {
+    clear: left;
+    height: 120px;
+    background-color: #AB2849;
+    margin: 20px 20px 10px 20px;
+
+}
