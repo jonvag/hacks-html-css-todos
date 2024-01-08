@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+* {
+    margin: 0;
+}
+
+body {
+    background-color: #FFF8EE;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.div-main {
+    margin: 0px 100px  0px 100px;
+
+}
+
+main {
+
+    height: 320px;
+    justify-content: center;
+    margin-left: 100px;
+    margin-right: 0px;
+}
+
+main section{
+    height: 100%;
+    width: 500px;
+    text-align: center;
+    float: left;
+}
+main section:nth-child(3){
+    align-items: center;
+    justify-content: center;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+h1 {
+    font-size: 80px;
+    letter-spacing: 5px;
+    font-weight: 900;
+}
+h2 {
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+h4 {
+    width: 100%;
+    font-size: 30px;
+    font-weight: 900;
+}
+p {
+    width: 100%;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.5;
+}
+.img-1 {
+    height: 350px;
+    width: 350px;
+    margin: auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    justify-content: center;
+    margin-top: -4rem;
+}
+
+
+nav {
+    height: 140px;
+    border-radius: 25px 25px 25px 25px;
+    background-color: #FFC1D3;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+
+}
+.centrar {
+    margin-top: 25px;
+    margin-right: 25px;
+    width: 299px;
+    width: 49%;
+    flex-wrap: wrap;
+    align-items: center;
+    display: flex;
+    text-align: center;
+}
+
+
+article {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+article section {
+    width: 48%;
+    margin-left: 0px;
+    height: 165px;
+}
+
+.img-2 {
+    height: 325px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+}
+
+.img-3 {
+    height: 325px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+}
+
+.alto-img{
+    height: 325px;
+    margin-top: 20px;
+}
+
+
+.espacio-vertical {
+    margin-bottom: 15px;
+}
+
+.margin-horizontal {
+    margin: 0px 30px 2px 0px;
+    width: 90%;
+    text-align: left;
+    font-size: 18px;
+}
+.mitad-espacio{
+    width: 49%;
+}
+
+article > section:last-child{
+    border-radius: 35px;
+    height: 150;
+    background-color: #85E0E4;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+    
+} 
+.flex-1 {
+    display: flex;
+    line-height: 30px;
+}
+h3 {
+    width: 80%;
+    font-weight: 600;
+}
+article section article{
+    margin-top: 5px;
+    display: flex;
+    width: 100%;
+    margin-left: 35px;
+
+    column-gap: 10px;
+    justify-content: left;
+}
+
+article section article div{
+    width: 25px;
+    height: 25px;
+    margin-right: 0px;
+    
+    /* margin-left: 10px;
+    margin-right: 15px; */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    margin: 0px 30px 0px 0px;
+    width: 95%;
+    text-align: left;
+    font-size: 18px;
+
+
+  }
+  
+  td {
+    text-align: left;
+  }
+
+  tr > td:nth-child(2) {
+    text-align: right;
+    padding-bottom: 2px;
+
+  }
+  aside { /* circulo top */
+    background-color: #FFD900;
+    height: 200px;
+    width: 200px;
+    clip-path: circle(50% at 50% 0%); 
+    margin-left: 285px;
+    /* clip-path: circle(50% at 50% 0);  *//* semi circulo hacia abajo */
+
+  }
+
+  .circle-right { /* circulo bottom */
+    background-color: #FF5757;
+    height: 250px;
+    width: 150px;
+    clip-path: circle(50% at 100% 50%); 
+    
+    float: right;
+    
+}
+
+footer { /* circulo right */
+    background-color: #FFC1D3;
+    height: 200px;
+    width: 200px;
+    clip-path: circle(50% at 50% 100%); 
+    margin-left: 85px;
+    /* clip-path: circle(50% at 50% 0);  *//* semi circulo hacia abajo */
+
+  }
